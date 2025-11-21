@@ -1,0 +1,61 @@
+.about {
+  display:flex;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 1.2em;
+}
+
+.about__desc {
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4em;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+}
+
+
+.about__header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* space between picture and text */
+  margin-bottom: 1.5rem;
+}
+
+.about__picture {
+  width: 180px;
+  height: 180px;
+  border-radius: 70%;   /* round profile */
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.about__intro {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+  .about__header {
+    flex-direction:column;
+  }
+}

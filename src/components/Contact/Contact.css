@@ -1,0 +1,10 @@
+.contact {
+  flex-direction: column;
+}
+.email {
+  display : flex;
+  gap:0.6rem;
+  align-items:center;
+  margin: 1.5rem 0;
+}
+
