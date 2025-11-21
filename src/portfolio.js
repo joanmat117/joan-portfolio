@@ -23,22 +23,22 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Ideal Energy',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
+      'A high-performance news website with an elegant design, perfect SEO, and a multilingual structure for global reach.',
+    stack: ['Nextjs', 'TypeScript', 'React','Supabase','TailwindCSS'],
+    sourceCode: 'https://github.com/joanmat117/energia-ideal',
+    livePreview: 'https://energia-ideal.vercel.app/en',
+    image: 'https://iili.io/f2Lmg9I.png',
   },
   {
-    name: 'Project 2',
+    name: 'Online Bible',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+      'A modern web application for reading the Bible, built with Next.js and React. It features a clean, responsive interface crafted with Material UI, a centralized state management via Redux, and a scalable Screaming Architecture for superior code organization.',
+    stack: ['Nextjs', 'TypeScript', 'React','Material UI'],
+    sourceCode: 'https://github.com/joanmat117/online-bible',
+    livePreview: 'https://online-bible.vercel.app/home',
+    image: 'https://iili.io/f2QFsVI.jpg',
   },
   {
     name: 'Project 3',
