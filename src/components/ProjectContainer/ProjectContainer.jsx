@@ -5,6 +5,7 @@ const ProjectContainer = ({ project }) => (
   <div className='project'>
 
     {project.image && (<img
+    className='project__image'
     src={
       project.image.startsWith("http")
         ? project.image
@@ -14,7 +15,7 @@ const ProjectContainer = ({ project }) => (
     style={{ width: '100%', objectFit: 'cover' }}
     />
     )}
-
+    <div className='project__data'>
     <h3>{project.name}</h3>
 
     <p className='project__description'>{project.description}</p>
@@ -47,6 +48,7 @@ const ProjectContainer = ({ project }) => (
         <IcRoundLaunch/>
       </a>
     )}
+    </div>
   </div>
 )
 
