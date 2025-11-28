@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Joan Matias',
-  role: 'React Developer',
+  role: 'Frontend Developer',
   picture: 'https://github.com/joanmat117.png',
 
   description:
@@ -28,26 +28,33 @@ const projects = [
       'A high-performance news website with an elegant design, perfect SEO, and a multilingual structure for global reach.',
     stack: ['Nextjs', 'TypeScript', 'React','Supabase','TailwindCSS'],
     sourceCode: 'https://github.com/joanmat117/energia-ideal',
-    livePreview: 'https://energia-ideal.vercel.app/en',
+    livePreview: 'https://energiaideal.vercel.app/en',
     image: 'https://iili.io/f2Lmg9I.png',
   },
   {
     name: 'Online Bible',
     description:
       'A modern web application for reading the Bible, built with Next.js and React. It features a clean, responsive interface crafted with Material UI, a centralized state management via Redux, and a scalable Screaming Architecture for superior code organization.',
-    stack: ['Nextjs', 'TypeScript', 'React','Material UI'],
+    stack: ['Nextjs', 'TypeScript', 'React','Material UI','Redux'],
     sourceCode: 'https://github.com/joanmat117/online-bible',
     livePreview: 'https://online-bible.vercel.app/home',
     image: 'https://iili.io/f2QFsVI.jpg',
   },
   {
-    name: 'Project 3',
+    name: 'Community Website',
+    image:'https://i.postimg.cc/HnLtBzpt/ldyn-picture.jpg',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A modern website for a community, featuring a themed and engaging design. It includes a full authentication system, an internal CMS for content management, and a responsive, high-performance user interface.',
+    stack: ['Supabase', 'TypeScript', 'React','TailwindCSS','Shadcn','Zustand','Serverless Function'],
   },
+  {
+    name:'Chatbot Room',
+    image:'https://i.postimg.cc/1XZ8z5dQ/chatbot-room-picture.jpg',
+    description:'A modern platform offering specialized AI-powered chatbots. Users can choose from multiple assistants (finance, health, academic, etc.) to get expert, contextual help across various fields, featuring an intuitive interface and responsive design.',
+    stack:['React','TailwindCSS','Typescript','Google Gemini'],
+    sourceCode:'https://github.com/joanmat117/chatbot-room',
+    livePreview:'https://chatbot-room.vercel.app'
+  }
 ]
 
 const skills = [

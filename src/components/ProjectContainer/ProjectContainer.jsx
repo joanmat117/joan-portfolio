@@ -34,6 +34,7 @@ const ProjectContainer = ({ project }) => (
         href={project.sourceCode}
         aria-label='source code'
         className='link link--icon'
+        target='_blank'
       >
         <RiGithubFill/>
       </a>
@@ -44,6 +45,7 @@ const ProjectContainer = ({ project }) => (
         href={project.livePreview}
         aria-label='live preview'
         className='link link--icon'
+        target='_blank'
       >
         <IcRoundLaunch/>
       </a>

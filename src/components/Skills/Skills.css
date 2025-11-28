@@ -9,6 +9,7 @@
 
 .skills__list-item {
   margin: 0.5em;
-  border-radius: 0.4rem;
-  background-color: var(--clr-bg-alt);
+  border-radius: 0rem;
+  text-transform:capitalize !important;
+  border:0.1rem solid !important;
 }
