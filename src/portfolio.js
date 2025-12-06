@@ -12,7 +12,7 @@ const about = {
 
   description:
     'Frontend developer passionate about creating efficient and responsive UIs with React, Next.js, TypeScript, and Tailwind CSS. Possesses solid database knowledge (SQL, Supabase) and is motivated to solve problems sustainably and scalably.',
-  resume: '/cv.pdf',
+  resume: '/CV_Joan_Matias_Dominguez.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/joan-matias-dominguez-3652a1365/',
     github: 'https://github.com/joanmat117',
