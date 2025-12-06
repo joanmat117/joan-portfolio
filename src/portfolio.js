@@ -1,4 +1,3 @@
-import cv from './assets/cv.pdf'
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://joan-portfolio.vercel.app/',
@@ -13,7 +12,7 @@ const about = {
 
   description:
     'Frontend developer passionate about creating efficient and responsive UIs with React, Next.js, TypeScript, and Tailwind CSS. Possesses solid database knowledge (SQL, Supabase) and is motivated to solve problems sustainably and scalably.',
-  resume: cv,
+  resume: '/cv.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/joan-matias-dominguez-3652a1365/',
     github: 'https://github.com/joanmat117',
